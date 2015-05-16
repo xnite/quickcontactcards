@@ -29,8 +29,7 @@ function embed_quick_contact_card($atts) {
 				'linkedin'	=> NULL,
 				'skype'		=> NULL,
 				'tumblr'	=> NULL,
-				'youtube'	=> NULL
-				
+				'youtube'	=> NULL,
 				'email'		=> NULL
 			),
 			$atts
