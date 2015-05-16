@@ -1,0 +1,122 @@
+div.contactCard {
+	width:			20%;
+	min-width:		200px;
+	height:			auto;
+	min-height:		150px;
+	margin:			10px;
+	padding:		0px;
+	float:			left;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background:rgba(241,241,241,0.9);
+	-webkit-box-shadow: #B3B3B3 7px 7px 7px;
+	-moz-box-shadow: #B3B3B3 7px 7px 7px;
+	box-shadow: #B3B3B3 7px 7px 7px;
+}
+div.contactCardNamePlate {
+	text-align:			center;
+	width:				100%;
+	padding:			0;
+	background-color:	#000000;
+	color:				#ffffff;
+	-webkit-border-radius: 20px;
+	-moz-border-radius:	20px 20px 0px 0px;
+	border-radius:		20px 20px 0px 0px;
+}
+img.contactCardImage {
+	float:			left;
+	width:			100%;
+	border:			none 0px;
+	margin-bottom:	10px;
+	-webkit-box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.96);
+	-moz-box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.96);
+	box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.96);
+}
+div.contactCardContents {
+	font-size:		medium;
+	padding:		0px;
+	margin:			0px;
+}
+span.contactCardName {
+	font-weight:	bold;
+	font-size:		large;
+}
+p.contactCardBio {
+	font-size:		medium;
+	margin:			10px;
+	margin-bottom:	25px;
+}
+div.contactCardTwitter {
+	background-color:	#55ACEE;
+	border:				0px;
+	font-size:			large;
+	line-height:		32px;
+	padding-right:		10px;
+}
+a.contactCardTwitterLink {
+	color:				#ffffff;
+	font-weight:		bold;
+	text-decoration:	none;
+}
+img.contactCardTwitterIcon {
+	height:			32px;
+	float:			left;
+	padding-right:	10px;
+}
+
+div.contactCardFacebook {
+	background-color:		#44619D;
+	color:					#ffffff;
+	border:				0px;
+	font-size:			large;
+	line-height:		32px;
+	padding-right:		10px;
+}
+a.contactCardFacebookLink {
+	color:				#ffffff;
+	font-weight:		bold;
+	text-decoration:	none;
+}
+img.contactCardFacebookIcon {
+	height:			32px;
+	float:			left;
+	padding-right:	10px;
+}
+div.contactCardGithub {
+	background-color:		#302F2A;
+	color:					#ffffff;
+	border:				0px;
+	font-size:			large;
+	line-height:		32px;
+	padding-right:		10px;
+}
+a.contactCardGithubLink {
+	color:				#ffffff;
+	font-weight:		bold;
+	text-decoration:	none;
+}
+img.contactCardGithubIcon {
+	height:			32px;
+	float:			left;
+	padding-right:	10px;
+}
+
+div.contactCardEmail {
+	background-color:	#f6f6f6;
+	color:				#000000;
+	border:				0px;
+	font-size:			large;
+	line-height:		32px;
+	padding-right:		10px;
+}
+a.contactCardEmailLink {
+	color:				#000000;
+	font-weight:		bold;
+	text-decoration:	none;
+}
+img.contactCardEmailIcon {
+	height:			32px;
+	float:			left;
+	padding-right:	10px;
+}
