@@ -78,5 +78,7 @@ function embed_quick_contact_card($atts) {
 	array_push($return, '</p>');
 	array_push($return, '</div>');
 	array_push($return, '</div>');
+	
+	return implode("\n", $return);
 }
 ?>
