@@ -1,20 +1,3 @@
-img.contactCardSocialIcon {
-	height:			32px;
-	float:			left;
-	padding-right:	3px;
-	border:			0px;
-	box-shadow:		0px;
-	border-radius:	0px;
-}
-img.contactCardEmailIcon {
-	height:			32px;
-	float:			left;
-	padding-right:	10px;
-	border:			0px;
-	box-shadow:		0px;
-	border-radius:	0px;
-}
-
 div.contactCardContainer {
 	display:		table;
 	width:			100%;
@@ -72,6 +55,7 @@ p.contactCardBio {
 	margin-bottom:	25px;
 }
 div.contactCardLinks {
+	clear:both;
 	background-color:		#444444;
 	color:					#ffffff;
 	border:					0px;
@@ -84,7 +68,17 @@ div.contactCardLinks {
 	padding:				0px;
 }
 
+img.contactCardSocialIcon {
+	height:			32px;
+	float:			left;
+	padding-right:	3px;
+	border:			0px;
+	box-shadow:		0px;
+	border-radius:	0px;
+}
+
 div.contactCardEmail {
+	clear:				both;
 	width:				100%;
 	background-color:	#f6f6f6;
 	color:				#000000;
@@ -97,4 +91,12 @@ a.contactCardEmailLink {
 	color:				#000000;
 	font-weight:		bold;
 	text-decoration:	none;
+}
+img.contactCardEmailIcon {
+	height:			32px;
+	float:			left;
+	padding-right:	10px;
+	border:			0px;
+	box-shadow:		0px;
+	border-radius:	0px;
 }
