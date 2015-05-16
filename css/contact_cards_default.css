@@ -72,6 +72,8 @@ img.contactCardSocialIcon {
 	float:			left;
 	padding-right:	3px;
 	border:			0px;
+	box-shadow:		0px;
+	border-radius:	0px;
 }
 
 div.contactCardEmail {
@@ -93,4 +95,6 @@ img.contactCardEmailIcon {
 	float:			left;
 	padding-right:	10px;
 	border:			0px;
+	box-shadow:		0px;
+	border-radius:	0px;
 }
