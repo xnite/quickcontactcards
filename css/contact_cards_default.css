@@ -71,7 +71,7 @@ img.contactCardTwitterIcon {
 	height:			32px;
 	float:			left;
 	padding-right:	10px;
-	border:			none 0px;
+	border:			0px;
 }
 
 div.contactCardFacebook {
@@ -91,7 +91,7 @@ img.contactCardFacebookIcon {
 	height:			32px;
 	float:			left;
 	padding-right:	10px;
-	border:			none 0px;
+	border:			0px;
 }
 div.contactCardGithub {
 	background-color:		#302F2A;
@@ -110,7 +110,7 @@ img.contactCardGithubIcon {
 	height:			32px;
 	float:			left;
 	padding-right:	10px;
-	border:			none 0px;
+	border:			0px;
 }
 
 div.contactCardEmail {
@@ -130,5 +130,5 @@ img.contactCardEmailIcon {
 	height:			32px;
 	float:			left;
 	padding-right:	10px;
-	border:			none 0px;
+	border:			0px;
 }
