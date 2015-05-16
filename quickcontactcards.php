@@ -19,6 +19,8 @@ function embed_quick_contact_card($atts) {
 		shortcode_atts(
 			array(
 				'name'		=> '???',
+				'title'		=> NULL,
+				'bio'		=> NULL,
 				'img'		=> plugins_url( 'images/default.png', __FILE__ ),
 				'twitter'	=> NULL,
 				'facebook'	=> NULL,
