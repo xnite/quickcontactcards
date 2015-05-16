@@ -7,6 +7,7 @@ div.contactCardContainer {
 div.contactCard {
 	width:			30%;
 	height:			auto;
+	min-height:		400px;
 	min-width:		250px;
 	margin:			10px;
 	padding:		0px;
@@ -60,6 +61,7 @@ div.contactCardLinks {
 	font-size:				medium;
 	line-height:			32px;
 	padding-right:			10px;
+	width:					100%;
 }
 
 img.contactCardSocialIcon {
