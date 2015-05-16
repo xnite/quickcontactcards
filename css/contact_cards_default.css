@@ -65,6 +65,7 @@ div.contactCardLinks {
 	height:					32px;
 	margin:					0px;
 	padding:				0px;
+	padding-top:			-3px;
 }
 
 img.contactCardSocialIcon {
