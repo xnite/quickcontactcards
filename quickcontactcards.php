@@ -22,9 +22,15 @@ function embed_quick_contact_card($atts) {
 				'title'		=> NULL,
 				'bio'		=> NULL,
 				'img'		=> plugins_url( 'images/default.png', __FILE__ ),
+				
 				'twitter'	=> NULL,
 				'facebook'	=> NULL,
 				'github'	=> NULL,
+				'linkedin'	=> NULL,
+				'skype'		=> NULL,
+				'tumblr'	=> NULL,
+				'youtube'	=> NULL
+				
 				'email'		=> NULL
 			),
 			$atts
@@ -36,27 +42,29 @@ function embed_quick_contact_card($atts) {
 	array_push($return, '<span class="contactCardName">'.$name.'</span>');
 	array_push($return,	'</div>');
 	array_push($return, '<img class="contactCardImage" src="'.$img.'" />');
+	array_push($return, '<div class="contactCardLinks">');
 	
 	if($twitter != NULL) {
-		array_push($return, '<div class="contactCardTwitter">');
-		array_push($return, '<img class="contactCardTwitterIcon" src="'.plugins_url( 'images/twitter.png', __FILE__ ).'">');
-		array_push($return, '<a class="contactCardTwitterLink" href="https://twitter.com/'.$twitter.'" target=_new>@'.$twitter.'</a>');
-		array_push($return, '</div>');
+		array_push($return, '<a href="https://twitter.com/'.$twitter.'"><img class="contactCardSocialIcon" src="'.plugins_url( 'img/twitter.png', __FILE__ ).'" /></a>');
+	}
+
+	if($facebook != NULL) {
+		array_push($return, '<a href="'.$facebook.'"><img class="contactCardSocialIcon" src="'.plugins_url( 'img/facebook.png', __FILE__ ).'" /></a>');
+	}
+
+	if($github != NULL) {
+		array_push($return, '<a href="'.$github.'"><img class="contactCardSocialIcon" src="'.plugins_url( 'img/github.png', __FILE__ ).'" /></a>');
+	}
+
+	if($linkedin != NULL) {
+		array_push($return, '<a href="https://linkedin.com/in/'..'"><img class="contactCardSocialIcon" src="'.plugins_url( 'img/linkedin.png', __FILE__ ).'" /></a>');
 	}
 	
-	if($facebook != NULL) {
-		$fb = json_decode(file_get_contents("https://graph.facebook.com/".$facebook));
-		array_push($return, '<div class="contactCardFacebook">');
-		array_push($return, '<img class="contactCardFacebookIcon" src="'.plugins_url( 'images/facebook.png', __FILE__ ).'">');
-		array_push($return, '<a class="contactCardFacebookLink" href="https://www.facebook.com/'.$facebook.'" target=_new>'.$fb->name.'</a>');
-		array_push($return, '</div>');
+	if($skype != NULL) {
+		array_push($return, '<a href="skype://'..'"><img class="contactCardSocialIcon" src="'.plugins_url( 'img/skype.png', __FILE__ ).'" /></a>');
 	}
-	if($github != NULL) {
-		array_push($return, '<div class="contactCardGithub">');
-		array_push($return, '<img class="contactCardGithubIcon" src="'.plugins_url( 'images/github.png', __FILE__ ).'">');
-		array_push($return, '<a class="contactCardGithubLink" href="https://github.com/'.$github.'" target=_new>@'.$github.'</a>');
-		array_push($return, '</div>');
-	}
+	
+	array_push($return, '</div>');
 	
 	if($email != NULL) {
 		array_push($return, '<div class="contactCardEmail">');
