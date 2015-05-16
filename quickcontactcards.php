@@ -48,11 +48,11 @@ function embed_quick_contact_card($atts) {
 	}
 
 	if($facebook != NULL) {
-		array_push($return, '<a href="'.$facebook.'"><img class="contactCardSocialIcon" src="'.plugins_url( 'img/facebook.png', __FILE__ ).'" /></a>');
+		array_push($return, '<a href="https://facebook.com/'.$facebook.'"><img class="contactCardSocialIcon" src="'.plugins_url( 'img/facebook.png', __FILE__ ).'" /></a>');
 	}
 
 	if($github != NULL) {
-		array_push($return, '<a href="'.$github.'"><img class="contactCardSocialIcon" src="'.plugins_url( 'img/github.png', __FILE__ ).'" /></a>');
+		array_push($return, '<a href="https://github.com/'.$github.'"><img class="contactCardSocialIcon" src="'.plugins_url( 'img/github.png', __FILE__ ).'" /></a>');
 	}
 
 	if($linkedin != NULL) {
