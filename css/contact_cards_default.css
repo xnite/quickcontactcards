@@ -71,6 +71,7 @@ img.contactCardTwitterIcon {
 	height:			32px;
 	float:			left;
 	padding-right:	10px;
+	border:			none 0px;
 }
 
 div.contactCardFacebook {
@@ -87,16 +88,17 @@ a.contactCardFacebookLink {
 	text-decoration:	none;
 }
 img.contactCardFacebookIcon {
-	height:			28px;
+	height:			32px;
 	float:			left;
 	padding-right:	10px;
+	border:			none 0px;
 }
 div.contactCardGithub {
 	background-color:		#302F2A;
 	color:					#ffffff;
 	border:				0px;
 	font-size:			medium;
-	line-height:		26px;
+	line-height:		32px;
 	padding-right:		10px;
 }
 a.contactCardGithubLink {
@@ -108,6 +110,7 @@ img.contactCardGithubIcon {
 	height:			32px;
 	float:			left;
 	padding-right:	10px;
+	border:			none 0px;
 }
 
 div.contactCardEmail {
@@ -127,4 +130,5 @@ img.contactCardEmailIcon {
 	height:			32px;
 	float:			left;
 	padding-right:	10px;
+	border:			none 0px;
 }
