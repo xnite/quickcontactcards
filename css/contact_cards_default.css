@@ -1,8 +1,14 @@
+div.contactCardContainer {
+	display:		table;
+	width:			100%;
+	table-layout:	fixed;
+	border-spacing:	10px;
+}
 div.contactCard {
 	width:			20%;
 	min-width:		250px;
 	height:			auto;
-	min-height:		150px;
+	min-height:		250px;
 	margin:			10px;
 	padding:		0px;
 	float:			left;
@@ -13,6 +19,7 @@ div.contactCard {
 	-webkit-box-shadow: #B3B3B3 7px 7px 7px;
 	-moz-box-shadow: #B3B3B3 7px 7px 7px;
 	box-shadow: #B3B3B3 7px 7px 7px;
+	display:	table-cell;
 }
 div.contactCardNamePlate {
 	text-align:			center;
