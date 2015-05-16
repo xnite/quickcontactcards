@@ -55,7 +55,7 @@ p.contactCardBio {
 	margin-bottom:	25px;
 }
 div.contactCardLinks {
-	background-color:		#302F2A;
+	background-color:		#444444;
 	color:					#ffffff;
 	border:					0px;
 	font-size:				medium;
@@ -72,6 +72,7 @@ img.contactCardSocialIcon {
 }
 
 div.contactCardEmail {
+	width:				100%;
 	background-color:	#f6f6f6;
 	color:				#000000;
 	border:				0px;
