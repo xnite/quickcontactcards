@@ -8,7 +8,7 @@ Author: Robert Whitney &lt;<a href="mailto:xnite@xnite.me">xnite@xnite.me</a>&gt
 Author URI: https://xnite.me
 License: <a href="http://www.gnu.org/copyleft/gpl.html" target=_new>GNU GPLv3</a>
 */
-add_action('wp_head','hook_css');
+add_action('wp_head','quick_contact_cards_hook_css');
 add_shortcode( 'contact', 'embed_quick_contact_card' );
 
 function quick_contact_cards_hook_css() {
