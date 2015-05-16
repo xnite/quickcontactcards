@@ -1,3 +1,20 @@
+img.contactCardSocialIcon {
+	height:			32px;
+	float:			left;
+	padding-right:	3px;
+	border:			0px;
+	box-shadow:		0px;
+	border-radius:	0px;
+}
+img.contactCardEmailIcon {
+	height:			32px;
+	float:			left;
+	padding-right:	10px;
+	border:			0px;
+	box-shadow:		0px;
+	border-radius:	0px;
+}
+
 div.contactCardContainer {
 	display:		table;
 	width:			100%;
@@ -67,15 +84,6 @@ div.contactCardLinks {
 	padding:				0px;
 }
 
-img.contactCardSocialIcon {
-	height:			32px;
-	float:			left;
-	padding-right:	3px;
-	border:			0px;
-	box-shadow:		0px;
-	border-radius:	0px;
-}
-
 div.contactCardEmail {
 	width:				100%;
 	background-color:	#f6f6f6;
@@ -89,12 +97,4 @@ a.contactCardEmailLink {
 	color:				#000000;
 	font-weight:		bold;
 	text-decoration:	none;
-}
-img.contactCardEmailIcon {
-	height:			32px;
-	float:			left;
-	padding-right:	10px;
-	border:			0px;
-	box-shadow:		0px;
-	border-radius:	0px;
 }
