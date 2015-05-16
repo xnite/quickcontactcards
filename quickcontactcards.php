@@ -56,11 +56,11 @@ function embed_quick_contact_card($atts) {
 	}
 
 	if($linkedin != NULL) {
-		array_push($return, '<a href="https://linkedin.com/in/'..'"><img class="contactCardSocialIcon" src="'.plugins_url( 'img/linkedin.png', __FILE__ ).'" /></a>');
+		array_push($return, '<a href="https://linkedin.com/in/'.$linkedin.'"><img class="contactCardSocialIcon" src="'.plugins_url( 'img/linkedin.png', __FILE__ ).'" /></a>');
 	}
 	
 	if($skype != NULL) {
-		array_push($return, '<a href="skype://'..'"><img class="contactCardSocialIcon" src="'.plugins_url( 'img/skype.png', __FILE__ ).'" /></a>');
+		array_push($return, '<a href="skype://'.$skype.'"><img class="contactCardSocialIcon" src="'.plugins_url( 'img/skype.png', __FILE__ ).'" /></a>');
 	}
 	
 	array_push($return, '</div>');
